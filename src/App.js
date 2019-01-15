@@ -76,6 +76,11 @@ class App extends Component {
             component={Courses}
             {... this.props}
           />
+          <DashboardRoute
+            path='/'
+            component={Courses}
+            {... this.props}
+          />
         </Switch>
       </StyledApp>
     )
